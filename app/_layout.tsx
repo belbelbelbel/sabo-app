@@ -9,6 +9,12 @@ export default function RootLayout() {
         <Stack.Screen name="OnboardingScreen" options={{
           headerShown:false
         }}/>
+        <Stack.Screen name="SignUp" options={{
+          headerShown:false
+        }}></Stack.Screen>
+        <Stack.Screen name="OtpPage" options={{
+          headerShown:false
+        }}/>
     </Stack>
   
   );
